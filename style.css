@@ -270,9 +270,15 @@ header.sticky {
 }
 
 .about .about-image img {
-  border-radius: 20px 270px;
+  border-radius: 20px 1000px;
   background: var(--bg-color);
   box-shadow: 20px 20px 30px #121212;
+  transition: border-radius 0.45s ease-in-out;
+}
+
+.about .about-image img:hover {
+  border-radius: 1000px 20px;
+  transition: border-radius 0.45s ease-in-out;
 }
 /* About me section end */
 
